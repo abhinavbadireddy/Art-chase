@@ -142,6 +142,21 @@ p {
   border-radius: 1rem;
 }
 
+.c1 {
+  background-color: #E4FBFF;
+}
+
+.c1btn {
+  background-color: #1E3163;
+  color: #fff;
+  border-radius: 0.7rem;
+}
+
+.c1btn:hover {
+  background-color: #5271ff;
+  border-color: #5271ff;
+}
+
 .sign {
   padding-bottom: 25px;
 }
