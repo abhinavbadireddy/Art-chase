@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Artchase</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" id="ac" href="#">Artchase</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#artists">Artists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#arts">Artworks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#signup">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">Download</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <h1 class="big-heading">Your one stop for all arts.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button dbtn1"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button dbtn2"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-md-6">
+          <img class="title-image" src="images/ac01.png" alt="artchase01">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use</h3>
+        <p>Buy any artwork just one click</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-globe-americas fa-4x"></i>
+        <h3>Worldwide</h3>
+        <p>Arts from artists all over the world</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-square-full fa-4x"></i>
+        <h3>Prints</h3>
+        <p>Available in an array of sizes and mediums</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="feature-box col-lg-6">
+        <i class="icon far fa-square fa-4x"></i>
+        <h3>Frames</h3>
+        <p>Frame the artworks you buy</p>
+      </div>
+
+      <div class="feature-box col-lg-6">
+        <i class="icon fas fa-box-open fa-4x"></i>
+        <h3>Delivery</h3>
+        <p>Worldwide shipping available</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Artists and Artworks -->
+
+  <section id="artists">
+    <h2>Featured Artists</h2>
+    <div id="artist-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="artist col-lg-3">
+              <h3>VEXX</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>ZHC</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>GAWX</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>LEO</h3>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="artist col-lg-3">
+              <h3>SAM</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>KESH</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>JAKE</h3>
+            </div>
+
+            <div class="artist col-lg-3">
+              <h3>DEREK</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#artist-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#artist-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="arts">
+    <h2>Featured Artworks</h2>
+    <div id="art-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+
+            <div class="artist col-lg-4">
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#art-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#art-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="signup">
+    <div class="row">
+      <div class="sign col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img src="" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Sign up as Artist</h2>
+            <p>Register as an artist and put up your artworks for sale</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="sbtn w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sign col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img src="" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Sign in as Artist</h2>
+            <p>Already have an account? Sign in now to put your artworks up for sale</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="sbtn w-100 btn btn-lg btn-outline-dark">Sign In</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sign col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img src="" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Sign up</h2>
+            <p>Register now to get access to your favourite artists works before anyone else</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="sbtn w-100 btn btn-lg btn-outline-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sign col-lg-3">
+        <div class="card">
+          <div class="card-header">
+            <img src="" alt="">
+          </div>
+          <div class="card-body">
+            <h2>Sign In</h2>
+            <p>Already have an account? Sign in now to explore artworks from artists worldwide</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="sbtn w-100 btn btn-lg btn-outline-dark">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Buy your favourite artists' works with just a click.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button dbtn3"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button dbtn4"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="social-icon fab fa-facebook-f fa-2x"></i>
+    <i class="social-icon fab fa-twitter fa-2x"></i>
+    <i class="social-icon fab fa-instagram fa-2x"></i>
+    <i class="social-icon fas fa-envelope fa-2x"></i>
+    <p class="copyright">© Copyright 2021 Artchase</p>
+
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #5271ff;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 7% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.47rem;
+}
+
+p {
+  color: #0A1931;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.big-heading {
+  padding: 6% 0 50px;
+}
+
+/* Navigation Bar */
+
+.container {
+  padding: 0 0 2.5rem;
+}
+
+#ac {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.dbtn1 {
+  background-color: #F9FD50;
+  border-color: #F9FD50;
+  color: #000;
+}
+
+.dbtn1:hover {
+  background-color: #0A1931;
+  border-color: #0A1931;
+  color: #F9FD50;
+}
+
+.dbtn2 {
+  background-color: #0A1931;
+  border-color: #0A1931;
+  color: #fff;
+}
+
+/* Features */
+
+#features {
+  padding: 5%;
+  background-color: #E4FBFF;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+  color: #0A1931;
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #5271ff;
+}
+
+#artists {
+  text-align: center;
+  background-color: #5271ff;
+  color: #fff;
+  padding-top: 2%;
+}
+
+.carousel-item {
+  padding: 7%;
+}
+
+#arts {
+  text-align: center;
+  background-color: #5271ff;
+  color: #fff;
+  padding-top: 2%;
+}
+
+.carousel-item {
+  padding: 7%;
+}
+
+/* Sign */
+
+#signup {
+  text-align: center;
+  padding: 100px;
+  background-color: #5271ff;
+}
+
+.card {
+  height: 100%;
+  background-color: #F9FD50;
+  border-radius: 1rem;
+}
+
+.sign {
+  padding-bottom: 25px;
+}
+
+.sbtn {
+  background-color: #0A1931;
+  color: #fff;
+  border-radius: 0.7rem;
+}
+
+.sbtn:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+/* Call to action */
+
+#cta {
+  background-color: #0A1931;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.dbtn3 {
+  background-color: #E4FBFF;
+  color: #000;
+}
+
+.dbtn3:hover {
+  background-color: #F9FD50;
+  color: #000;
+}
+
+.dbtn4:hover {
+  background-color: #5271ff;
+  border-color: #5271ff;
+  color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 0 7% 5%;
+  text-align: center;
+  background-color: #0A1931;
+}
+
+.social-icon {
+  margin: 20px 30px;
+  color: #E4FBFF;
+}
+
+.copyright {
+  color: #E4FBFF;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    max-width: 500px;
+    position: static;
+    transform: rotate(0);
+  }
+}
